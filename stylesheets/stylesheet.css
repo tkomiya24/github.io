@@ -20,14 +20,14 @@ body {
 .main-content {
   margin: 0 5%; }
 
-.project-section p {
-  margin: 0 1%; }
-
-.project-section ul {
-  margin-left: 2%; }
-
-.project-section li {
-  margin-top: 7px; }
-
-.project-section li:first-child {
-  margin-top: 0; }
+.project-section {
+  margin-bottom: 20px;
+  margin-top: 20px; }
+  .project-section p {
+    margin: 0 1%; }
+  .project-section ul {
+    margin-left: 2%; }
+  .project-section li {
+    margin-top: 7px; }
+  .project-section li:first-child {
+    margin-top: 0; }
