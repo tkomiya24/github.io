@@ -1,0 +1,25 @@
+{
+  "name": "tkomiya24.github.io",
+  "version": "0.0.1",
+  "description": "tkomiya24's GitHub page",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tkomiya24/tkomiya24.github.io.git"
+  },
+  "keywords": [
+    "tkomiya24",
+    "tkomiya",
+    "takeru",
+    "komiya",
+    "github",
+    "page"
+  ],
+  "author": "Takeru Komiya",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/tkomiya24/tkomiya24.github.io/issues"
+  },
+  "homepage": "https://github.com/tkomiya24/tkomiya24.github.io#readme"
+}
