@@ -12,4 +12,13 @@ body {
   p {
     margin: 0 1%;
   }
+  ul {
+    margin-left: 2%
+  }
+  li {
+    margin-top: 7px;
+  }
+  li:first-child {
+    margin-top: 0;
+  }
 }

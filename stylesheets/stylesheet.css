@@ -22,3 +22,12 @@ body {
 
 .project-section p {
   margin: 0 1%; }
+
+.project-section ul {
+  margin-left: 2%; }
+
+.project-section li {
+  margin-top: 7px; }
+
+.project-section li:first-child {
+  margin-top: 0; }
