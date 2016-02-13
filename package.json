@@ -2,8 +2,7 @@
   "name": "tkomiya24.github.io",
   "version": "0.0.1",
   "description": "tkomiya24's GitHub page",
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tkomiya24/tkomiya24.github.io.git"
@@ -21,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/tkomiya24/tkomiya24.github.io/issues"
   },
-  "homepage": "https://github.com/tkomiya24/tkomiya24.github.io#readme"
+  "homepage": "https://github.com/tkomiya24/tkomiya24.github.io#readme",
+  "devDependencies": {
+    "grunt": "^0.4.5"
+  }
 }
