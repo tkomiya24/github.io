@@ -46,18 +46,20 @@
   margin-bottom: 20px; }
 
 nav {
+  display: flex;
   height: 70px;
+  margin: 0 -20px;
   width: 100%; }
-  nav h1, nav ul {
-    display: inline-block; }
   nav h1 {
-    padding: 0;
-    padding-right: 100px; }
+    padding: 0 5px;
+    margin: 0;
+    margin-right: 100px;
+    height: 100%; }
   nav ul {
+    display: flex;
     padding-left: 0;
     width: 70%; }
   nav li {
-    display: inline;
     font-size: 1.3em;
     margin: 0 1%; }
 
