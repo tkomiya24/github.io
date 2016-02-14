@@ -35,6 +35,14 @@ body {
   &:first-of-type {
     border-top: 1px solid rgb(50, 50, 50);
   }
+  h2 {
+    background: $japaneseRed;
+    border-radius: 6px;
+    font-weight: normal;
+    color: white;
+    display: inline-block;
+    padding: 10px;
+  }
 }
 
 .sidebar {

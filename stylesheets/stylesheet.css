@@ -54,6 +54,13 @@ body {
     margin-top: 0; }
   .project-section:first-of-type {
     border-top: 1px solid #323232; }
+  .project-section h2 {
+    background: #C70025;
+    border-radius: 6px;
+    font-weight: normal;
+    color: white;
+    display: inline-block;
+    padding: 10px; }
 
 .sidebar {
   float: left;
