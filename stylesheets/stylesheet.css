@@ -18,7 +18,9 @@ body {
   margin: 0 20px; }
 
 .main-content {
-  margin: 0 5%; }
+  width: 68%;
+  margin-left: 16%;
+  min-width: 590px; }
 
 .project-section {
   margin-bottom: 20px;
@@ -36,3 +38,12 @@ body {
     margin-top: 0; }
   .project-section:first-of-type {
     border-top: 1px solid #323232; }
+
+.sidebar {
+  float: left;
+  width: 15%; }
+  .sidebar ul {
+    padding: 0; }
+  .sidebar li {
+    margin: 7px 0;
+    list-style: none; }
