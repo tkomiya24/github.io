@@ -1,18 +1,30 @@
 .page-header {
   padding-top: 20px;
-  position: relative; }
+  position: relative;
+  overflow: hidden; }
 
 .character {
   text-align: center;
   margin-bottom: 5px;
-  font-size: 3.6em; }
+  font-size: 3.6em;
+  color: gainsboro; }
 
 .header-right {
   position: absolute;
   bottom: 0;
-  right: 0; }
+  right: 10%; }
   .header-right h1 {
     margin-bottom: 0; }
+
+.sun {
+  background-color: #C70025;
+  border-radius: 50%;
+  height: 1000px;
+  margin-top: -500px;
+  width: 50%;
+  z-index: -1;
+  left: 25%;
+  position: absolute; }
 
 body {
   margin: 0 20px; }
