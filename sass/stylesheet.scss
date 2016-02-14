@@ -64,3 +64,9 @@ body {
     list-style: none;
   }
 }
+
+.affix {
+  top: 0;
+  left: $bodySidePadding;
+  position: fixed;
+}
