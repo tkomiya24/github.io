@@ -1,6 +1,6 @@
 nav {
   display: flex;
-  height: 70px;
+  height: $navbarHeight;
   margin: 0 #{-$bodySidePadding};
   background-color: white;
   border-bottom: 2px solid #e8e8e8;
