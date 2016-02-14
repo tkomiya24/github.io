@@ -12,7 +12,7 @@ body {
 
 .main-content {
   padding: 50px 2%;
-  width: 64%;
+  width: $mainContentSize;
   margin-left: 16%;
   min-width: 590px;
   background-color: white;
@@ -51,7 +51,7 @@ body {
 
 .sidebar {
   float: left;
-  width: 15%;
+  width: $sidebarSize;
   margin-left: -20px;
   padding-left: 20px;
   background-color: white;
