@@ -28,8 +28,6 @@
   position: absolute; }
 
 .welcome {
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c80025+0,db3030+100,c6979f+100&1+0,1+99,0.99+100 */
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c80025+0,db3030+100,c6979f+100&1+0,1+99,0.99+100 */
   background: -moz-linear-gradient(-45deg, #c80025 0%, #c6959e 99%, rgba(198, 151, 159, 0.99) 100%);
   /* FF3.6-15 */
   background: -webkit-linear-gradient(-45deg, #c80025 0%, #c6959e 99%, rgba(198, 151, 159, 0.99) 100%);
