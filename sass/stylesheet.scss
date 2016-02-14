@@ -51,7 +51,8 @@ body {
 
 .sidebar {
   float: left;
-  width: $sidebarSize;
+  width: $sidebarSize - 20px;
+  margin-right: 20px;
   margin-left: -$bodySidePadding;
   padding-left: $bodySidePadding;
   background-color: white;

@@ -82,7 +82,8 @@ body {
 
 .sidebar {
   float: left;
-  width: 285px;
+  width: 265px;
+  margin-right: 20px;
   margin-left: -20px;
   padding-left: 20px;
   background-color: white; }
