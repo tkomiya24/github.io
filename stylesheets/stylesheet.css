@@ -94,7 +94,7 @@ body {
     list-style: none; }
   .sidebar a, .sidebar a:link, .sidebar a:visited {
     text-decoration: none;
-    color: inherit; }
+    color: #563d7c; }
 
 .affix {
   top: 0;
