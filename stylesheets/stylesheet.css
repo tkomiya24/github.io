@@ -92,9 +92,8 @@ body {
   .sidebar li {
     margin: 7px 0;
     list-style: none; }
-  .sidebar a {
-    text-decoration: none; }
-  .sidebar a:link, .sidebar a:visited {
+  .sidebar a, .sidebar a:link, .sidebar a:visited {
+    text-decoration: none;
     color: inherit; }
 
 .affix {
