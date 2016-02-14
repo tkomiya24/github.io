@@ -19,8 +19,6 @@
 .sun {
   background-color: #C70025;
   border-radius: 50%;
-  height: 1000px;
-  margin-top: -500px;
   width: 50%;
   z-index: -1;
   left: 25%;
