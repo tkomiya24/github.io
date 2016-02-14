@@ -9,6 +9,5 @@ $(document).ready(function() {
   resizeSun();
   $(window).resize(function() {
     resizeSun();
-    console.log(sun.height());
   });
 });
