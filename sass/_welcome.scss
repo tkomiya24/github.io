@@ -5,8 +5,10 @@
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c80025', endColorstr='#fcc6979f',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
   color: #DEDEDE;
   font-size: 1.5em;
-  margin-left: 15%;
-  padding: 1%;
-  width: 70%;
+  margin-left: $sidebarSize;
+  padding: 2%;
+  width: 66%;
   border-radius: 7px;
+  margin-top:20px;
+  margin-bottom: 20px;
 }
