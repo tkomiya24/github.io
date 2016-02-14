@@ -21,4 +21,8 @@ nav {
     font-size: 1.25em;
     width: 33%;
   }
+  a, a:visited, a:link {
+    text-decoration: none;
+    color: inherit;
+  }
 }
