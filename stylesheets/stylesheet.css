@@ -1,7 +1,10 @@
 .page-header {
   padding-top: 20px;
   position: relative;
-  overflow: hidden; }
+  overflow: hidden;
+  background-color: white;
+  z-index: 1;
+  margin: 0 -20px; }
 
 .character {
   text-align: center;
@@ -25,13 +28,15 @@
   position: absolute; }
 
 body {
-  margin: 0 20px; }
+  margin: 0 20px;
+  background-color: #cfcfcf; }
 
 .main-content {
-  margin-top: 50px;
-  width: 68%;
+  padding: 50px 2%;
+  width: 64%;
   margin-left: 16%;
-  min-width: 590px; }
+  min-width: 590px;
+  background-color: white; }
 
 .project-section {
   margin-bottom: 20px;
@@ -52,7 +57,10 @@ body {
 
 .sidebar {
   float: left;
-  width: 15%; }
+  width: 15%;
+  margin-left: -20px;
+  padding-left: 20px;
+  background-color: white; }
   .sidebar ul {
     padding: 0; }
   .sidebar li {

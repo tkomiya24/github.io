@@ -3,13 +3,15 @@
 
 body {
   margin: 0 20px;
+  background-color: $backgroundGrey;
 }
 
 .main-content {
-  margin-top: 50px;
-  width: 68%;
+  padding: 50px 2%;
+  width: 64%;
   margin-left: 16%;
   min-width: 590px;
+  background-color: white;
 }
 
 .project-section {
@@ -38,6 +40,9 @@ body {
 .sidebar {
   float: left;
   width: 15%;
+  margin-left: -20px;
+  padding-left: 20px;
+  background-color: white;
   ul {
     padding: 0;
   }
