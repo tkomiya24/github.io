@@ -57,11 +57,12 @@ nav {
     height: 100%; }
   nav ul {
     display: flex;
+    justify-content: flex-start;
     padding-left: 0;
-    width: 70%; }
+    width: 60%; }
   nav li {
-    font-size: 1.3em;
-    margin: 0 1%; }
+    font-size: 1.25em;
+    width: 33%; }
 
 body {
   margin: 0 20px;
