@@ -68,7 +68,10 @@ nav {
     flex: 0 1 13em;
     display: flex; }
   nav a {
-    width: 100%; }
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
   nav a, nav a:visited, nav a:link {
     text-decoration: none;
     color: inherit; }
