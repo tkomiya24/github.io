@@ -1,0 +1,77 @@
+//variables
+@import "colours";
+@import "sizes";
+//partials
+@import "header";
+@import "welcome";
+@import "navbar";
+
+body {
+  margin: 0 $bodySidePadding;
+  background-color: $backgroundGrey;
+}
+
+.main-content {
+  padding: 50px 2%;
+  width: $mainContentSize;
+  margin-left: $sidebarSize + 10px;
+  min-width: 590px;
+  background-color: white;
+}
+
+.project-section {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border-bottom: 1px solid rgb(50, 50, 50);
+  padding-top: 25px;
+  padding-bottom: 25px;
+  p {
+    margin: 0 1%;
+  }
+  ul {
+    margin-left: 2%
+  }
+  li {
+    margin-top: 7px;
+  }
+  li:first-child {
+    margin-top: 0;
+  }
+  &:first-of-type {
+    border-top: 1px solid rgb(50, 50, 50);
+  }
+  h2 {
+    background: $japaneseRed;
+    border-radius: 6px;
+    font-weight: normal;
+    color: white;
+    display: inline-block;
+    padding: 10px;
+  }
+}
+
+.sidebar {
+  float: left;
+  width: $sidebarSize - 20px;
+  margin-right: 20px;
+  margin-left: -$bodySidePadding;
+  padding-left: $bodySidePadding;
+  background-color: white;
+  ul {
+    padding: 0;
+  }
+  li {
+    margin: 7px 0;
+    list-style: none;
+  }
+  a, a:link, a:visited {
+    text-decoration: none;
+    color: $greyText;
+  }
+}
+
+.affix {
+  top: 0;
+  left: $bodySidePadding;
+  position: fixed;
+}

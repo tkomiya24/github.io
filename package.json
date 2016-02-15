@@ -1,0 +1,33 @@
+{
+  "name": "tkomiya24.github.io",
+  "version": "0.0.1",
+  "description": "tkomiya24's GitHub page",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tkomiya24/tkomiya24.github.io.git"
+  },
+  "keywords": [
+    "tkomiya24",
+    "tkomiya",
+    "takeru",
+    "komiya",
+    "github",
+    "page"
+  ],
+  "author": "Takeru Komiya",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/tkomiya24/tkomiya24.github.io/issues"
+  },
+  "homepage": "https://github.com/tkomiya24/tkomiya24.github.io#readme",
+  "devDependencies": {
+    "autoprefixer": "^6.3.3",
+    "grunt": "^0.4.5",
+    "grunt-contrib-cssmin": "^0.14.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-postcss": "^0.7.1",
+    "grunt-sass": "^1.1.0",
+    "load-grunt-tasks": "^3.4.0"
+  }
+}
