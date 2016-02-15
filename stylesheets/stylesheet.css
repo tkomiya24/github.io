@@ -117,6 +117,10 @@ body {
   min-width: 590px;
   background-color: white;
   margin-bottom: 20px; }
+  .main-content li {
+    margin-top: 7px; }
+  .main-content li:first-child {
+    margin-top: 0; }
 
 .project-section {
   margin-bottom: 20px;
@@ -126,12 +130,6 @@ body {
   padding-bottom: 25px; }
   .project-section p {
     margin: 0 1%; }
-  .project-section ul {
-    margin-left: 2%; }
-  .project-section li {
-    margin-top: 7px; }
-  .project-section li:first-child {
-    margin-top: 0; }
   .project-section:first-of-type {
     border-top: 1px solid #323232; }
   .project-section h2 {

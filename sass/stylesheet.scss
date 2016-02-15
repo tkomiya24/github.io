@@ -19,6 +19,12 @@ body {
   min-width: 590px;
   background-color: white;
   margin-bottom: 20px;
+  li {
+    margin-top: 7px;
+  }
+  li:first-child {
+    margin-top: 0;
+  }
 }
 
 .project-section {
@@ -29,15 +35,6 @@ body {
   padding-bottom: 25px;
   p {
     margin: 0 1%;
-  }
-  ul {
-    margin-left: 2%
-  }
-  li {
-    margin-top: 7px;
-  }
-  li:first-child {
-    margin-top: 0;
   }
   &:first-of-type {
     border-top: 1px solid rgb(50, 50, 50);
