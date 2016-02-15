@@ -108,7 +108,8 @@ body {
   width: 64%;
   margin-left: 295px;
   min-width: 590px;
-  background-color: white; }
+  background-color: white;
+  margin-bottom: 20px; }
 
 .project-section {
   margin-bottom: 20px;
