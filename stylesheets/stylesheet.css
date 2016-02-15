@@ -150,11 +150,22 @@ body {
   .sidebar ul {
     padding: 0; }
   .sidebar li {
-    margin: 7px 0;
     list-style: none; }
+  .sidebar a {
+    display: block;
+    width: 95%;
+    height: 1.5em;
+    line-height: 1.5em;
+    padding: 0.3em 2.5%; }
+    .sidebar a span {
+      vertical-align: middle;
+      display: inline-block; }
   .sidebar a, .sidebar a:link, .sidebar a:visited {
     text-decoration: none;
     color: #563d7c; }
+  .sidebar a:hover {
+    background-color: #563d7c;
+    color: white; }
 
 .affix {
   top: 0;
