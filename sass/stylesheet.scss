@@ -59,19 +59,26 @@ body {
   ul {
     padding: 0;
   }
+  h3 {
+    margin: 0;
+  }
   li {
     list-style: none;
   }
   a {
     display: block;
-    width: 95%;
-    height: 1.5em;
-    line-height: 1.5em;
-    padding: 0.3em 2.5%;
+    width: 97%;
+    padding: 0.45em 1.5%;
     span {
       vertical-align: middle;
       display: inline-block;
     }
+  }
+  ul ul a {
+    width: 95%;
+    height: 1.4em;
+    line-height: 1.4em;
+    padding: 0.3em 2.5%;
   }
   a, a:link, a:visited {
     text-decoration: none;
