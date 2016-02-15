@@ -162,9 +162,9 @@ body {
       display: inline-block; }
   .sidebar a, .sidebar a:link, .sidebar a:visited {
     text-decoration: none;
-    color: #563d7c; }
+    color: #222; }
   .sidebar a:hover {
-    background-color: #563d7c;
+    background-color: #222;
     color: white; }
 
 .affix {
