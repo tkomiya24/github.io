@@ -16,10 +16,14 @@ nav {
     list-style: none;
     padding-left: 0;
     width: 60%;
+    height: 100%;
   }
   li {
-    font-size: 1.25em;
-    width: 33%;
+    flex: 0 1 13em;
+    display: flex;
+  }
+  a {
+    width: 100%;
   }
   a, a:visited, a:link {
     text-decoration: none;

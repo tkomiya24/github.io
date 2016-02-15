@@ -61,10 +61,13 @@ nav {
     justify-content: flex-start;
     list-style: none;
     padding-left: 0;
-    width: 60%; }
+    width: 60%;
+    height: 100%; }
   nav li {
-    font-size: 1.25em;
-    width: 33%; }
+    flex: 0 1 13em;
+    display: flex; }
+  nav a {
+    width: 100%; }
   nav a, nav a:visited, nav a:link {
     text-decoration: none;
     color: inherit; }
