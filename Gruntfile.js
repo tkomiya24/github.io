@@ -11,14 +11,24 @@ module.exports = function(grunt) {
         }
       }
     },
+    postcss: {
+      options: {
+        processors: [
+          require('autoprefixer')({browsers: 'last 2 versions'})
+        ]
+      },
+      dist: {
+        src: 'stylesheets/stylesheet.css'
+      }
+    },
     watch: {
       sass: {
         files: sassFiles,
-        tasks: ['sass']
+        tasks: ['dist']
       }
     }
   });
 
-  grunt.registerTask('dist', ['sass']);
+  grunt.registerTask('dist', ['sass', 'postcss']);
 
 };
