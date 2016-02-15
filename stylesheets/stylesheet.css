@@ -72,6 +72,8 @@ nav {
   nav a, nav a:visited, nav a:link {
     text-decoration: none;
     color: inherit; }
+  nav a:hover {
+    background-color: #e6e6e6; }
 
 body {
   margin: 0 20px;

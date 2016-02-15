@@ -30,4 +30,7 @@ nav {
     text-decoration: none;
     color: inherit;
   }
+  a:hover {
+    background-color: darken(white, 10%);
+  }
 }
