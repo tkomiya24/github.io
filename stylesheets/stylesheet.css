@@ -99,6 +99,13 @@ nav {
   nav a:hover {
     background-color: #e6e6e6; }
 
+.resume-subsection {
+  padding: 5px; }
+  .resume-subsection div {
+    padding: 0 5px; }
+    .resume-subsection div p {
+      padding: 0 5px; }
+
 body {
   margin: 0 20px;
   background-color: #cfcfcf; }
