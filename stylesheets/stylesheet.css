@@ -116,6 +116,9 @@ nav {
     .resume-subsection div p {
       padding: 0 5px; }
 
+html {
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; }
+
 body {
   margin: 0 20px;
   background-color: #cfcfcf; }
