@@ -153,38 +153,6 @@ body {
     display: inline-block;
     padding: 10px; }
 
-.sidebar {
-  float: left;
-  width: 265px;
-  margin-right: 20px;
-  margin-left: -20px;
-  padding-left: 20px;
-  background-color: white; }
-  .sidebar ul {
-    padding: 0; }
-  .sidebar h3 {
-    margin: 0; }
-  .sidebar li {
-    list-style: none; }
-  .sidebar a {
-    display: block;
-    width: 97%;
-    padding: 0.45em 1.5%; }
-    .sidebar a span {
-      vertical-align: middle;
-      display: inline-block; }
-  .sidebar ul ul a {
-    width: 95%;
-    height: 1.4em;
-    line-height: 1.4em;
-    padding: 0.3em 2.5%; }
-  .sidebar a, .sidebar a:link, .sidebar a:visited {
-    text-decoration: none;
-    color: #222; }
-  .sidebar a:hover {
-    background-color: #222;
-    color: white; }
-
 .affix {
   top: 0;
   left: 20px;
