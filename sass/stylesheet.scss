@@ -19,7 +19,7 @@ body {
 .main-content {
   padding: 15px 2%;
   width: $mainContentSize;
-  margin-left: $sidebarSize + 10px;
+  margin: 0 auto;
   min-width: 590px;
   background-color: white;
   margin-bottom: 20px;
@@ -50,47 +50,6 @@ body {
     color: white;
     display: inline-block;
     padding: 10px;
-  }
-}
-
-.sidebar {
-  float: left;
-  width: $sidebarSize - 20px;
-  margin-right: 20px;
-  margin-left: -$bodySidePadding;
-  padding-left: $bodySidePadding;
-  background-color: white;
-  ul {
-    padding: 0;
-  }
-  h3 {
-    margin: 0;
-  }
-  li {
-    list-style: none;
-  }
-  a {
-    display: block;
-    width: 97%;
-    padding: 0.45em 1.5%;
-    span {
-      vertical-align: middle;
-      display: inline-block;
-    }
-  }
-  ul ul a {
-    width: 95%;
-    height: 1.4em;
-    line-height: 1.4em;
-    padding: 0.3em 2.5%;
-  }
-  a, a:link, a:visited {
-    text-decoration: none;
-    color: $greyText;
-  }
-  a:hover {
-    background-color: $greyText;
-    color: white;
   }
 }
 
