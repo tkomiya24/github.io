@@ -32,6 +32,8 @@ body {
   li:first-child {
     margin-top: 0;
   }
+  border: 1px solid $borderGrey;
+  border-radius: 5px;
 }
 
 .project-section {

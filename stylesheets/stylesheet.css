@@ -130,7 +130,9 @@ body {
   margin: 0 auto;
   min-width: 590px;
   background-color: white;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  border: 1px solid #e1e8ed;
+  border-radius: 5px; }
   .main-content li {
     margin-top: 7px; }
   .main-content li:first-child {
