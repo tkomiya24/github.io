@@ -157,3 +157,6 @@ body {
 .affix {
   top: 0;
   position: fixed; }
+
+.affix + .content {
+  margin-top: 90px; }

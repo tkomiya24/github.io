@@ -60,3 +60,7 @@ body {
   top: 0;
   position: fixed;
 }
+
+.affix + .content {
+  margin-top: $navbarHeight + 20px;
+}
