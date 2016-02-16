@@ -8,24 +8,7 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
   </head>
   <body data-spy="scroll" data-target=".sidebar">
-    <nav>
-      <h1>
-        tkomiya24
-      </h1>
-      <ul>
-        <li>
-          <a href="#projects">
-            Projects
-          </a>
-        </li>
-        <li>
-          <a href="#resume">
-            Resume
-          </a>
-        </li>
-      </ul>
-    </nav>
-    <section class="page-header">
+    <section id="page-header" class="page-header">
       <div class="sun">
       </div>
       <div class="background-text">
@@ -46,98 +29,117 @@
         <h1 class="project-name">tkomiya24.GitHub.io</h1>
       </span>
     </section>
-    <div class="welcome">
+    <nav id="top-navbar">
       <h1>
-        <a id="welcome" class="anchor" href="#welcome" aria-hidden="true">
-          <span aria-hidden="true" class="octicon octicon-link"></span>
-        </a>Welcome!!
+        tkomiya24
       </h1>
-      <p>Thanks for taking the time to check this page out. Below, I'll list some of the stuff I've been tinkering with, the technologies they use, where you can see them live, and where you can find the repo! Enjoy,</p>
       <ul>
-        <li>Takeru <a href="https://github.com/tkomiya24" class="user-mention">@tkomiya24</a>
+        <li>
+          <a href="#projects">
+            Projects
+          </a>
+        </li>
+        <li>
+          <a href="#resume">
+            Resume
+          </a>
         </li>
       </ul>
-    </div>
-    <section id="projects" class="main-content">
-      <div class="project-section">
-        <h2>
-          <a id="hobby_site" class="anchor" href="#hobby_site" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>hobby_site
-        </h2>
-        <p>This is a site that will help people form teams or groups. I'm initially starting with people who play instruments who are looking to form a band. You register, tell the site which instrument(s) you play and search, browse, and review other users.  </p>
-        <p>Some tech this app uses</p>
+    </nav>
+    <div class="content">
+      <div class="welcome">
+        <h1>
+          <a id="welcome" class="anchor" href="#welcome" aria-hidden="true">
+            <span aria-hidden="true" class="octicon octicon-link"></span>
+          </a>Welcome!!
+        </h1>
+        <p>Thanks for taking the time to check this page out. Below, I'll list some of the stuff I've been tinkering with, the technologies they use, where you can see them live, and where you can find the repo! Enjoy,</p>
         <ul>
-          <li>MySQL 5</li>
-          <li>Rails 4</li>
-          <li>Ruby 2.2</li>
-          <li>Bootstrap 3</li>
+          <li>Takeru <a href="https://github.com/tkomiya24" class="user-mention">@tkomiya24</a>
+          </li>
         </ul>
       </div>
-      <div class="project-section">
-        <h2>
-          <a id="vocabtester" class="anchor" href="#vocabtester" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>VocabTester
-        </h2>
-        <p>This is a site that I made for fun to help me learn a new language. You register, create lists of words that you want to learn, and can take a test. The app keeps track of how many times you've gotten a word right or wrong.  </p>
-        <p>Some tech this app uses</p>
-        <ul>
-          <li>MongoDB 3</li>
-          <li>NodeJS</li>
-          <li>ExpressJS</li>
-          <li>Mongoose</li>
-          <li>AngularJS 1</li>
-          <li>Grunt</li>
-          <li>SASS</li>
-          <li>Bootstrap</li>
-        </ul>
-      </div>
-    </section>
-    <section id="resume" class="main-content">
-      <h2>
-        Resume
-      </h2>
-      <div class="resume-subsection">
-        <h3>
-          Education
-        </h3>
-        <div>
-          <h4>
-            The University of British Columbia September 2009 - November 2014
-          </h4>
-          <p>
-            Bachelor of Science in Computer Science and Mathematics
-          </p>
-        </div>
-      </div>
-      <div class="resume-subsection">
-        <h3>
-          Experience
-        </h3>
-        <div>
-          <h4>
-            SAP Labs Montreal January - December 2015
-          </h4>
+      <section id="projects" class="main-content">
+        <div class="project-section">
+          <h2>
+            <a id="hobby_site" class="anchor" href="#hobby_site" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>hobby_site
+          </h2>
+          <p>This is a site that will help people form teams or groups. I'm initially starting with people who play instruments who are looking to form a band. You register, tell the site which instrument(s) you play and search, browse, and review other users.  </p>
+          <p>Some tech this app uses</p>
           <ul>
-            <li>
-              Review code and complete backlog items for native Android hands-free glass application.
-            </li>
-            <li>
-              Created a hands-free augmented reality Android glass POC with 3D tracking via the MetaioSDK and 3D rendering with OpenGL ES
-            </li>
-            <li>
-              Implemented functional UI tests for an iPad application using M-eux
-            </li>
-            <li>
-              Client side development of hybrid iPad app with UI5 Javascript library and the Cordova
-            </li>
-            <li>
-              Unit testing with QUnit and PhantomJS
-            </li>
-            <li>
-              Automated tasks with Grunt
-            </li>
+            <li>MySQL 5</li>
+            <li>Rails 4</li>
+            <li>Ruby 2.2</li>
+            <li>Bootstrap 3</li>
           </ul>
         </div>
-      </div>
-    </section>
+        <div class="project-section">
+          <h2>
+            <a id="vocabtester" class="anchor" href="#vocabtester" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>VocabTester
+          </h2>
+          <p>This is a site that I made for fun to help me learn a new language. You register, create lists of words that you want to learn, and can take a test. The app keeps track of how many times you've gotten a word right or wrong.  </p>
+          <p>Some tech this app uses</p>
+          <ul>
+            <li>MongoDB 3</li>
+            <li>NodeJS</li>
+            <li>ExpressJS</li>
+            <li>Mongoose</li>
+            <li>AngularJS 1</li>
+            <li>Grunt</li>
+            <li>SASS</li>
+            <li>Bootstrap</li>
+          </ul>
+        </div>
+      </section>
+      <section id="resume" class="main-content">
+        <h2>
+          Resume
+        </h2>
+        <div class="resume-subsection">
+          <h3>
+            Education
+          </h3>
+          <div>
+            <h4>
+              The University of British Columbia September 2009 - November 2014
+            </h4>
+            <p>
+              Bachelor of Science in Computer Science and Mathematics
+            </p>
+          </div>
+        </div>
+        <div class="resume-subsection">
+          <h3>
+            Experience
+          </h3>
+          <div>
+            <h4>
+              SAP Labs Montreal January - December 2015
+            </h4>
+            <ul>
+              <li>
+                Review code and complete backlog items for native Android hands-free glass application.
+              </li>
+              <li>
+                Created a hands-free augmented reality Android glass POC with 3D tracking via the MetaioSDK and 3D rendering with OpenGL ES
+              </li>
+              <li>
+                Implemented functional UI tests for an iPad application using M-eux
+              </li>
+              <li>
+                Client side development of hybrid iPad app with UI5 Javascript library and the Cordova
+              </li>
+              <li>
+                Unit testing with QUnit and PhantomJS
+              </li>
+              <li>
+                Automated tasks with Grunt
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </div>
     <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     <script src="index.js"></script>

@@ -12,8 +12,11 @@ html {
 }
 
 body {
-  margin: 0 $bodySidePadding;
   background-color: $backgroundGrey;
+}
+
+.content {
+  padding: 0 $bodySidePadding;
 }
 
 .main-content {
@@ -55,6 +58,9 @@ body {
 
 .affix {
   top: 0;
-  left: $bodySidePadding;
   position: fixed;
+}
+
+.affix + .content {
+  margin-top: $navbarHeight + 20px;
 }
