@@ -137,14 +137,14 @@ section {
   section li:first-child {
     margin-top: 0; }
 
-.project-section {
+.sub-section {
   border-bottom: 1px solid #e1e8ed;
   padding: 10px; }
-  .project-section p {
+  .sub-section p {
     margin: 0 1%; }
-  .project-section:last-of-type {
+  .sub-section:last-of-type {
     border: none; }
-  .project-section h2 {
+  .sub-section h2 {
     background: #C70025;
     border-radius: 6px;
     font-weight: normal;
