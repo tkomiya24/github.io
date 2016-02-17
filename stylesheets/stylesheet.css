@@ -125,7 +125,6 @@ body {
   padding: 0 20px; }
 
 .main-content {
-  padding: 15px 2%;
   width: 64%;
   margin: 0 auto;
   min-width: 590px;
@@ -139,15 +138,13 @@ body {
     margin-top: 0; }
 
 .project-section {
-  margin-bottom: 20px;
   margin-top: 20px;
-  border-bottom: 1px solid #323232;
-  padding-top: 25px;
-  padding-bottom: 25px; }
+  border-bottom: 1px solid #e1e8ed;
+  padding: 10px; }
   .project-section p {
     margin: 0 1%; }
-  .project-section:first-of-type {
-    border-top: 1px solid #323232; }
+  .project-section:last-of-type {
+    border: none; }
   .project-section h2 {
     background: #C70025;
     border-radius: 6px;
