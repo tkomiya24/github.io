@@ -1,9 +1,9 @@
 nav {
   display: flex;
-  height: $navbarHeight - 3px;
+  height: $navbarHeight - 2px;
   background-color: white;
-  border-top: 1px solid #e8e8e8;
-  border-bottom: 2px solid #e8e8e8;
+  border-top: 1px solid $borderGrey;
+  border-bottom: 1px solid $borderGrey;
   width: 100%;
   h1 {
     display: flex;

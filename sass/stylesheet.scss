@@ -19,8 +19,7 @@ body {
   padding: 0 $bodySidePadding;
 }
 
-.main-content {
-  padding: 15px 2%;
+section {
   width: $mainContentSize;
   margin: 0 auto;
   min-width: 590px;
@@ -32,19 +31,18 @@ body {
   li:first-child {
     margin-top: 0;
   }
+  border: 1px solid $borderGrey;
+  border-radius: 5px;
 }
 
-.project-section {
-  margin-bottom: 20px;
-  margin-top: 20px;
-  border-bottom: 1px solid rgb(50, 50, 50);
-  padding-top: 25px;
-  padding-bottom: 25px;
+.sub-section {
+  border-bottom: 1px solid $borderGrey;
+  padding: 10px;
   p {
     margin: 0 1%;
   }
-  &:first-of-type {
-    border-top: 1px solid rgb(50, 50, 50);
+  &:last-of-type {
+    border: none;
   }
   h2 {
     background: $japaneseRed;
@@ -54,6 +52,11 @@ body {
     display: inline-block;
     padding: 10px;
   }
+}
+
+.section-header {
+  padding-left: 10px;
+  border-bottom: 1px solid $borderGrey;
 }
 
 .affix {

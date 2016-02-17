@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
   </head>
   <body data-spy="scroll" data-target=".sidebar">
-    <section id="page-header" class="page-header">
+    <header id="page-header" class="page-header">
       <div class="sun">
       </div>
       <div class="background-text">
@@ -28,7 +28,7 @@
       <span class="header-right">
         <h1 class="project-name">tkomiya24.GitHub.io</h1>
       </span>
-    </section>
+    </header>
     <nav id="top-navbar">
       <h1>
         tkomiya24
@@ -49,18 +49,20 @@
     <div class="content">
       <div class="welcome">
         <h1>
-          <a id="welcome" class="anchor" href="#welcome" aria-hidden="true">
-            <span aria-hidden="true" class="octicon octicon-link"></span>
-          </a>Welcome!!
+          Welcome!!
         </h1>
         <p>Thanks for taking the time to check this page out. Below, I'll list some of the stuff I've been tinkering with, the technologies they use, where you can see them live, and where you can find the repo! Enjoy,</p>
-        <ul>
-          <li>Takeru <a href="https://github.com/tkomiya24" class="user-mention">@tkomiya24</a>
-          </li>
-        </ul>
+        <span>
+          - Takeru
+        </span>
       </div>
-      <section id="projects" class="main-content">
-        <div class="project-section">
+      <section id="projects">
+        <div class="section-header">
+          <h1>
+            Projects
+          </h1>
+        </div>
+        <div class="sub-section">
           <h2>
             <a id="hobby_site" class="anchor" href="#hobby_site" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>hobby_site
           </h2>
@@ -73,7 +75,7 @@
             <li>Bootstrap 3</li>
           </ul>
         </div>
-        <div class="project-section">
+        <div class="sub-section">
           <h2>
             <a id="vocabtester" class="anchor" href="#vocabtester" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>VocabTester
           </h2>
@@ -91,10 +93,12 @@
           </ul>
         </div>
       </section>
-      <section id="resume" class="main-content">
-        <h2>
-          Resume
-        </h2>
+      <section id="resume">
+        <div class="section-header">
+          <h1>
+            Resume
+          </h1>
+        </div>
         <div class="resume-subsection">
           <h3>
             Education
