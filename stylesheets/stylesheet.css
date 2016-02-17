@@ -37,15 +37,16 @@
     padding: 0; }
 
 .welcome {
-  background: linear-gradient(135deg, #c80025 0%, #c6959e 99%, rgba(198, 151, 159, 0.99) 100%);
+  background: linear-gradient(to bottom, #c80025 0%, #c4717f 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c80025', endColorstr='#fcc6979f',GradientType=1 );
   /* IE6-9 fallback on horizontal gradient */
-  color: #DEDEDE;
+  color: #f0f0f0;
   font-size: 1.5em;
   margin: 0 auto;
   padding: 25px 2%;
-  width: 66%;
+  width: 96%;
+  height: 400px;
   border-radius: 7px;
   margin-top: 20px;
   margin-bottom: 20px; }
