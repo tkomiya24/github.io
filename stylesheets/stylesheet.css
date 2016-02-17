@@ -124,7 +124,7 @@ body {
 .content {
   padding: 0 20px; }
 
-.main-content {
+section {
   width: 64%;
   margin: 0 auto;
   min-width: 590px;
@@ -132,9 +132,9 @@ body {
   margin-bottom: 20px;
   border: 1px solid #e1e8ed;
   border-radius: 5px; }
-  .main-content li {
+  section li {
     margin-top: 7px; }
-  .main-content li:first-child {
+  section li:first-child {
     margin-top: 0; }
 
 .project-section {
