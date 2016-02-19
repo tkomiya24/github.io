@@ -3,8 +3,7 @@
   position: relative;
   overflow: hidden;
   background-color: white;
-  z-index: 1;
-  min-width: 920px; }
+  z-index: 1; }
 
 .character {
   text-align: center;
@@ -35,6 +34,18 @@
     font-size: 800%;
     margin: 0;
     padding: 0; }
+
+@media (max-width: 919px) {
+  .page-header {
+    width: 100%; }
+  .sun {
+    width: 160%;
+    left: 0; }
+  .background-text {
+    left: 5%;
+    top: 40%; }
+    .background-text h1 {
+      font-size: 450%; } }
 
 .welcome {
   background: linear-gradient(to bottom, #c80025 0%, #c4717f 100%);

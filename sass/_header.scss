@@ -4,7 +4,6 @@
   overflow: hidden;
   background-color: white;
   z-index: 1;
-  min-width: 920px;
 }
 
 .character {
@@ -48,5 +47,18 @@
 }
 
 @media (max-width: 919px) {
-
+  .page-header {
+    width: 100%;
+  }
+  .sun {
+    width: 160%;
+    left: 0;
+  }
+  .background-text {
+    left: 5%;
+    top: 40%;
+    h1 {
+      font-size: 450%;
+    }
+  }
 }
