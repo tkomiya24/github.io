@@ -35,7 +35,7 @@
     margin: 0;
     padding: 0; }
 
-@media (max-width: 919px) {
+@media (max-width: 450px) {
   .page-header {
     width: 100%; }
   .sun {
