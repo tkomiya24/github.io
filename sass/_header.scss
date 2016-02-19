@@ -46,7 +46,7 @@
 
 }
 
-@media (max-width: 450px) {
+@media (min-width: 451px) and (max-width: 919px) {
   .page-header {
     width: 100%;
   }
@@ -58,6 +58,27 @@
     left: 3%;
     h1 {
       font-size: 10em;
+    }
+  }
+  .character {
+    text-align: right;
+    margin-right: 0.3em;
+  }
+}
+
+@media (max-width: 450px) {
+  .page-header {
+    width: 100%;
+  }
+  .sun {
+    width: 160%;
+    left: 0;
+  }
+  .background-text {
+    left: 3%;
+    top: 40%;
+    h1 {
+      font-size: 5em;
     }
   }
   .character {
