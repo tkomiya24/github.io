@@ -42,10 +42,9 @@
     width: 160%;
     left: 0; }
   .background-text {
-    left: 5%;
-    top: 40%; }
+    left: 3%; }
     .background-text h1 {
-      font-size: 450%; } }
+      font-size: 10em; } }
 
 .welcome {
   background: linear-gradient(to bottom, #c80025 0%, #c4717f 100%);
