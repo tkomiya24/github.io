@@ -1,0 +1,39 @@
+section {
+  width: $mainContentSize;
+  margin: 0 auto;
+  min-width: 590px;
+  background-color: white;
+  margin-bottom: 20px;
+  li {
+    margin-top: 7px;
+  }
+  li:first-child {
+    margin-top: 0;
+  }
+  border: 1px solid $borderGrey;
+  border-radius: 5px;
+}
+
+.sub-section {
+  border-bottom: 1px solid $borderGrey;
+  padding: 10px;
+  p {
+    margin: 0 1%;
+  }
+  &:last-of-type {
+    border: none;
+  }
+  h2 {
+    background: $japaneseRed;
+    border-radius: 6px;
+    font-weight: normal;
+    color: white;
+    display: inline-block;
+    padding: 10px;
+  }
+}
+
+.section-header {
+  padding-left: 10px;
+  border-bottom: 1px solid $borderGrey;
+}
