@@ -4,7 +4,6 @@
   overflow: hidden;
   background-color: white;
   z-index: 1;
-  min-width: 920px;
 }
 
 .character {
@@ -26,19 +25,69 @@
 .sun {
   background-color: $japaneseRed;
   border-radius: 50%;
-  width: 70%;
   z-index: -1;
-  left: 15%;
   position: absolute;
 }
 
 .background-text {
   position: absolute;
-  left: 15%;
   color: white;
   h1 {
-    font-size: 800%;
     margin: 0;
     padding: 0;
+  }
+}
+
+@media (min-width: 920px) {
+  .sun {
+    width: 70%;
+    left: 15%;
+  }
+  .background-text {
+    left: 15%;
+    h1 {
+      font-size: 800%;
+    }
+  }
+}
+
+@media (min-width: 451px) and (max-width: 919px) {
+  .page-header {
+    width: 100%;
+  }
+  .sun {
+    width: 160%;
+    left: 0;
+  }
+  .background-text {
+    left: 3%;
+    h1 {
+      font-size: 10em;
+    }
+  }
+  .character {
+    text-align: right;
+    margin-right: 0.3em;
+  }
+}
+
+@media (max-width: 450px) {
+  .page-header {
+    width: 100%;
+  }
+  .sun {
+    width: 160%;
+    left: 0;
+  }
+  .background-text {
+    left: 3%;
+    top: 40%;
+    h1 {
+      font-size: 5em;
+    }
+  }
+  .character {
+    text-align: right;
+    margin-right: 0.3em;
   }
 }
