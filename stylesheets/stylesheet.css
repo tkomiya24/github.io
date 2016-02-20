@@ -190,14 +190,14 @@ section {
   padding-left: 10px;
   border-bottom: 1px solid #e1e8ed; }
 
+.content {
+  padding: 0 20px; }
+
 html {
   font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; }
 
 body {
   background-color: #f5f8fa; }
-
-.content {
-  padding: 0 20px; }
 
 .affix {
   top: 0;
