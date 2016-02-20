@@ -1,7 +1,6 @@
 section {
   width: $mainContentSize;
   margin: 0 auto;
-  min-width: 590px;
   background-color: white;
   margin-bottom: 20px;
   li {
@@ -36,4 +35,23 @@ section {
 .section-header {
   padding-left: 10px;
   border-bottom: 1px solid $borderGrey;
+}
+
+.content {
+  padding: 0 $bodySidePadding;
+}
+
+@media (max-width: 589px) {
+  section {
+    width: 100%;
+    border-left: none;
+    border-right: none;
+  }
+  .content {
+    padding: 0;
+  }
+  .sub-section {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
