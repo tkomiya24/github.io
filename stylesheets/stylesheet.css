@@ -123,9 +123,6 @@ nav {
     -webkit-justify-content: center;
         -ms-flex-pack: center;
             justify-content: center; }
-  nav a, nav a:visited, nav a:link {
-    text-decoration: none;
-    color: inherit; }
   nav a:hover {
     background-color: #e6e6e6; }
 
