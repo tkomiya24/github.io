@@ -219,6 +219,13 @@ section {
     padding-left: 15px;
     padding-right: 15px; } }
 
+.skill-list {
+  display: inline-block;
+  width: 260px;
+  vertical-align: text-top;
+  text-align: left;
+  margin-left: 5%; }
+
 html {
   font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; }
 
