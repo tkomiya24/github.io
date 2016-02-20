@@ -123,9 +123,6 @@ nav {
     -webkit-justify-content: center;
         -ms-flex-pack: center;
             justify-content: center; }
-  nav a, nav a:visited, nav a:link {
-    text-decoration: none;
-    color: inherit; }
   nav a:hover {
     background-color: #e6e6e6; }
 
@@ -192,6 +189,25 @@ section {
 .content {
   padding: 0 20px; }
 
+.links {
+  margin-top: 10px;
+  margin-bottom: 10px; }
+  .links button {
+    margin: 0;
+    background-color: #f5f8fa;
+    padding: 0px;
+    border: 1px solid #d3e0e9;
+    color: #C0133B; }
+  .links button:first-of-type {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px; }
+  .links button:last-of-type {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px; }
+  .links a:hover {
+    color: #f5f8fa;
+    background-color: #C0133B; }
+
 @media (max-width: 589px) {
   section {
     width: 100%;
@@ -215,3 +231,13 @@ body {
 
 .affix + .content {
   margin-top: 90px; }
+
+a, a:visited, a:hover {
+  text-decoration: none; }
+
+a {
+  color: inherit;
+  display: block;
+  padding: 5px;
+  margin: 0;
+  border-radius: inherit; }
