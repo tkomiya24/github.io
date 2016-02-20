@@ -41,6 +41,30 @@ section {
   padding: 0 $bodySidePadding;
 }
 
+.links {
+  button {
+    margin: 0;
+    background-color: $backgroundGrey;;
+    padding: 0px;
+    border: 1px solid darken($backgroundGrey, 10%);
+    color: #C0133B;
+  }
+  button:first-of-type {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  button:last-of-type {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  a:hover {
+    color: $backgroundGrey;
+    background-color: #C0133B;
+  }
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 @media (max-width: 589px) {
   section {
     width: 100%;
