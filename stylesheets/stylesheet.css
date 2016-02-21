@@ -18,48 +18,36 @@
   color: #e6e6e6; }
 
 .sun {
+  width: 920px;
+  height: 920px;
+  position: relative;
+  top: -200px;
   background-color: #C70025;
   border-radius: 50%;
-  z-index: -1;
-  position: absolute; }
+  z-index: -1; }
 
 .background-text {
   position: absolute;
   z-index: 1;
-  color: white; }
+  color: white;
+  top: 28%;
+  left: 17px;
+  font-size: 420%; }
   .background-text h1 {
     margin: 0;
     padding: 0; }
 
-@media (min-width: 920px) {
+@media (min-width: 770px) {
   .sun {
-    width: 920px;
-    height: 920px;
-    position: relative;
-    top: -200px;
     margin: 0 auto; }
-  .background-text {
-    top: 28%;
-    left: 17px;
-    font-size: 420%; }
   .character {
     position: absolute;
     top: 200px;
     left: 675px; } }
 
-@media (min-width: 451px) and (max-width: 919px) {
-  .page-header {
-    width: 100%; }
-  .sun {
-    width: 160%;
-    left: 0; }
-  .background-text {
-    left: 3%; }
-    .background-text h1 {
-      font-size: 10em; }
+@media (min-width: 451px) and (max-width: 769px) {
   .character {
-    text-align: right;
-    margin-right: 0.3em; } }
+    display: none; } }
 
 @media (max-width: 450px) {
   .page-header {
