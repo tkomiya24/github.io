@@ -152,7 +152,8 @@ section {
   width: 100%;
   font-size: 1.3em;
   font-weight: 100;
-  background-color: white;
+  background-color: #C70025;
+  color: white;
   margin-bottom: 20px;
   border-top: 1px solid #e1e8ed;
   border-bottom: 1px solid #e1e8ed;
