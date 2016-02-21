@@ -169,7 +169,8 @@ section {
 
 .sub-section {
   border-bottom: 1px solid #e1e8ed;
-  padding: 10px; }
+  padding-left: 60px;
+  padding-right: 60px; }
   .sub-section p {
     margin: 0 1%; }
   .sub-section:last-of-type {

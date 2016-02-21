@@ -1,3 +1,5 @@
+$innerPadding: 60px;
+
 section {
   width: $mainContentSize;
   background-color: white;
@@ -15,7 +17,8 @@ section {
 
 .sub-section {
   border-bottom: 1px solid $borderGrey;
-  padding: 10px;
+  padding-left: $innerPadding;
+  padding-right: $innerPadding;
   p {
     margin: 0 1%;
   }
