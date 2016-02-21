@@ -4,6 +4,8 @@
   overflow: hidden;
   background-color: white;
   z-index: 1; }
+  .page-header h1, .page-header h2, .page-header h3, .page-header h4, .page-header h5, .page-header h6 {
+    font-weight: bold; }
 
 .character {
   text-align: center;
@@ -157,8 +159,6 @@ section {
   border-top: 1px solid #e1e8ed;
   border-bottom: 1px solid #e1e8ed;
   border-radius: 5px; }
-  section h1, section h2, section h3, section h4 {
-    font-weight: 200; }
   section li {
     margin-top: 7px; }
   section li:first-child {
@@ -221,6 +221,9 @@ html {
 
 body {
   background-color: #f5f8fa; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 200; }
 
 .affix {
   top: 0;
