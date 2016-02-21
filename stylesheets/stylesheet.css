@@ -208,8 +208,7 @@ section {
   display: inline-block;
   width: 260px;
   vertical-align: text-top;
-  text-align: left;
-  margin-left: 5%; }
+  text-align: left; }
 
 html {
   font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; }
