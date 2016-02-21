@@ -15,9 +15,9 @@ function affixNavbar() {
 }
 
 $(document).ready(function() {
-  resizeSun();
+  // resizeSun();
   affixNavbar();
   $(window).resize(function() {
-    resizeSun();
+    // resizeSun();
   });
 });
