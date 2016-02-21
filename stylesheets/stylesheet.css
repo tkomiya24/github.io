@@ -211,12 +211,19 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-weight: 200; }
 
-.affix {
-  top: 0;
-  position: fixed; }
+@media (min-width: 683px) {
+  .affix {
+    top: 0;
+    position: fixed; }
+  .affix + .content {
+    margin-top: 72px; } }
 
-.affix + .content {
-  margin-top: 72px; }
+@media (max-width: 683px) {
+  nav {
+    position: fixed;
+    top: 0; }
+  body {
+    padding-top: 70px; } }
 
 .signature {
   font-family: cursive;
