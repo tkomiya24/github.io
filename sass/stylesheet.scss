@@ -8,9 +8,11 @@
 @import "sections";
 @import "skills";
 
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,900,700,500,300);
+
 html {
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 300;
+  font-family: Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: lighter;
 }
 
 body {
