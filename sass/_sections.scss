@@ -9,7 +9,8 @@ section {
   li:first-child {
     margin-top: 0;
   }
-  border: 1px solid $borderGrey;
+  border-top: 1px solid $borderGrey;
+  border-bottom: 1px solid $borderGrey;
   border-radius: 5px;
 }
 
@@ -66,14 +67,6 @@ section {
 }
 
 @media (max-width: 589px) {
-  section {
-    width: 100%;
-    border-left: none;
-    border-right: none;
-  }
-  .content {
-    padding: 0;
-  }
   .sub-section {
     padding-left: 15px;
     padding-right: 15px;

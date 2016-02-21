@@ -160,7 +160,8 @@ section {
   margin: 0 auto;
   background-color: white;
   margin-bottom: 20px;
-  border: 1px solid #e1e8ed;
+  border-top: 1px solid #e1e8ed;
+  border-bottom: 1px solid #e1e8ed;
   border-radius: 5px; }
   section li {
     margin-top: 7px; }
@@ -209,12 +210,6 @@ section {
     background-color: #C0133B; }
 
 @media (max-width: 589px) {
-  section {
-    width: 100%;
-    border-left: none;
-    border-right: none; }
-  .content {
-    padding: 0; }
   .sub-section {
     padding-left: 15px;
     padding-right: 15px; } }
