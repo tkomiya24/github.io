@@ -2,7 +2,12 @@ $innerPadding: 8%;
 
 section {
   width: $mainContentSize;
+  font-size: 1.3em;
+  font-weight: 100;
   background-color: white;
+  h1, h2, h3, h4 {
+    font-weight: 200;
+  }
   margin-bottom: 20px;
   li {
     margin-top: 7px;
