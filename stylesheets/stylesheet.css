@@ -148,16 +148,8 @@ nav {
   nav a {
     font-size: 1.23em; } }
 
-.resume-subsection {
-  padding: 5px; }
-  .resume-subsection div {
-    padding: 0 5px; }
-    .resume-subsection div p {
-      padding: 0 5px; }
-
 section {
   width: 100%;
-  margin: 0 auto;
   background-color: white;
   margin-bottom: 20px;
   border-top: 1px solid #e1e8ed;
@@ -167,32 +159,30 @@ section {
     margin-top: 7px; }
   section li:first-child {
     margin-top: 0; }
+  section div {
+    padding-left: 60px;
+    padding-right: 60px; }
 
 .sub-section {
   border-bottom: 1px solid #e1e8ed;
-  padding: 10px; }
+  padding-top: 32px;
+  padding-bottom: 32px; }
   .sub-section p {
     margin: 0 1%; }
   .sub-section:last-of-type {
     border: none; }
-  .sub-section h2 {
-    background: #C70025;
-    border-radius: 6px;
-    font-weight: normal;
-    color: white;
-    display: inline-block;
-    padding: 10px; }
 
 .section-header {
-  padding-left: 10px;
+  padding-left: 20px;
   border-bottom: 1px solid #e1e8ed; }
 
 .content {
   padding: 0 0; }
 
 .links {
-  margin-top: 10px;
-  margin-bottom: 10px; }
+  display: block;
+  margin-top: 25px;
+  margin-bottom: 25px; }
   .links button {
     margin: 0;
     background-color: #f5f8fa;
@@ -218,8 +208,7 @@ section {
   display: inline-block;
   width: 260px;
   vertical-align: text-top;
-  text-align: left;
-  margin-left: 5%; }
+  text-align: left; }
 
 html {
   font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; }

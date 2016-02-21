@@ -1,6 +1,7 @@
+$innerPadding: 60px;
+
 section {
   width: $mainContentSize;
-  margin: 0 auto;
   background-color: white;
   margin-bottom: 20px;
   li {
@@ -12,29 +13,26 @@ section {
   border-top: 1px solid $borderGrey;
   border-bottom: 1px solid $borderGrey;
   border-radius: 5px;
+  div {
+    padding-left: $innerPadding;
+    padding-right: $innerPadding;
+  }
 }
 
 .sub-section {
   border-bottom: 1px solid $borderGrey;
-  padding: 10px;
+  padding-top: 32px;
+  padding-bottom: 32px;
   p {
     margin: 0 1%;
   }
   &:last-of-type {
     border: none;
   }
-  h2 {
-    background: $japaneseRed;
-    border-radius: 6px;
-    font-weight: normal;
-    color: white;
-    display: inline-block;
-    padding: 10px;
-  }
 }
 
 .section-header {
-  padding-left: 10px;
+  padding-left: 20px;
   border-bottom: 1px solid $borderGrey;
 }
 
@@ -43,6 +41,7 @@ section {
 }
 
 .links {
+  display: block;
   button {
     margin: 0;
     background-color: $backgroundGrey;;
@@ -62,8 +61,8 @@ section {
     color: $backgroundGrey;
     background-color: #C0133B;
   }
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 @media (max-width: 589px) {
