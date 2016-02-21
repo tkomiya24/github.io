@@ -1,11 +1,14 @@
 .page-header {
   padding-top: 20px;
+  height: 250px;
   position: relative;
   overflow: hidden;
   background-color: white;
   z-index: 1;
   h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
+    margin: 0;
+    padding: 0;
   }
 }
 
@@ -13,84 +16,52 @@
   text-align: center;
   margin-bottom: 5px;
   font-size: 3.6em;
+  z-index: 0;
   color: rgb(230, 230, 230);
 }
 
-.header-right {
-  position: absolute;
-  bottom: 0;
-  right: 10%;
-  h1 {
-    margin-bottom: 0;
-  }
-}
-
 .sun {
+  width: 920px;
+  height:920px;
+  position: relative;
+  top: -200px;
   background-color: $japaneseRed;
   border-radius: 50%;
   z-index: -1;
-  position: absolute;
 }
 
 .background-text {
   position: absolute;
+  z-index: 1;
   color: white;
+  top: 28%;
+  left: 17px;
+  font-size: 420%;
   h1 {
     margin: 0;
     padding: 0;
   }
 }
 
-@media (min-width: 920px) {
+@media (min-width: 770px) {
   .sun {
-    width: 70%;
-    left: 15%;
+    margin: 0 auto;
   }
-  .background-text {
-    left: 15%;
-    h1 {
-      font-size: 800%;
-    }
+  .character {
+    position: absolute;
+    top: 200px;
+    left: 675px;
   }
 }
 
-@media (min-width: 451px) and (max-width: 919px) {
-  .page-header {
-    width: 100%;
-  }
-  .sun {
-    width: 160%;
-    left: 0;
-  }
-  .background-text {
-    left: 3%;
-    h1 {
-      font-size: 10em;
-    }
-  }
+@media (min-width: 684px) and (max-width: 769px) {
   .character {
-    text-align: right;
-    margin-right: 0.3em;
+    display: none;
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 683px) {
   .page-header {
-    width: 100%;
-  }
-  .sun {
-    width: 160%;
-    left: 0;
-  }
-  .background-text {
-    left: 3%;
-    top: 40%;
-    h1 {
-      font-size: 5em;
-    }
-  }
-  .character {
-    text-align: right;
-    margin-right: 0.3em;
+    display: none;
   }
 }
