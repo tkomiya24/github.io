@@ -162,8 +162,8 @@ section {
 
 .sub-section {
   border-bottom: 1px solid #e1e8ed;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 32px;
+  padding-bottom: 32px;
   padding-left: 60px;
   padding-right: 60px; }
   .sub-section p {
