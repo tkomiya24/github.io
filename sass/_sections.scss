@@ -13,14 +13,16 @@ section {
   border-top: 1px solid $borderGrey;
   border-bottom: 1px solid $borderGrey;
   border-radius: 5px;
+  div {
+    padding-left: $innerPadding;
+    padding-right: $innerPadding;
+  }
 }
 
 .sub-section {
   border-bottom: 1px solid $borderGrey;
   padding-top: 32px;
   padding-bottom: 32px;
-  padding-left: $innerPadding;
-  padding-right: $innerPadding;
   p {
     margin: 0 1%;
   }

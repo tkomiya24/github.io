@@ -159,13 +159,14 @@ section {
     margin-top: 7px; }
   section li:first-child {
     margin-top: 0; }
+  section div {
+    padding-left: 60px;
+    padding-right: 60px; }
 
 .sub-section {
   border-bottom: 1px solid #e1e8ed;
   padding-top: 32px;
-  padding-bottom: 32px;
-  padding-left: 60px;
-  padding-right: 60px; }
+  padding-bottom: 32px; }
   .sub-section p {
     margin: 0 1%; }
   .sub-section:last-of-type {
