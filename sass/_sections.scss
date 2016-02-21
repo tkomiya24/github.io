@@ -2,8 +2,9 @@ $innerPadding: 8%;
 
 section {
   width: $mainContentSize;
-  background-color: white;
-  margin-bottom: 20px;
+  font-size: 1.3em;
+  font-weight: 100;
+  color: white;
   li {
     margin-top: 7px;
   }
@@ -17,6 +18,14 @@ section {
     padding-left: 1%;
     padding-right: 1%;
   }
+}
+
+section:nth-of-type(2n) {
+  background-color: $background2;
+}
+
+section:nth-of-type(2n+1) {
+  background-color: $background0;
 }
 
 .sub-section {
@@ -46,10 +55,10 @@ section {
   display: block;
   button {
     margin: 0;
-    background-color: $backgroundGrey;;
+    background-color: $background4;
     padding: 0px;
-    border: 1px solid darken($backgroundGrey, 10%);
-    color: #C0133B;
+    border: 1px solid white;
+    color: white;
   }
   button:first-of-type {
     border-top-left-radius: 5px;
@@ -60,8 +69,7 @@ section {
     border-bottom-right-radius: 5px;
   }
   a:hover {
-    color: $backgroundGrey;
-    background-color: #C0133B;
+    background-color: $background3;
   }
   margin-top: 25px;
   margin-bottom: 25px;

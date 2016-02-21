@@ -17,6 +17,10 @@ body {
   background-color: $backgroundGrey;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 200;
+}
+
 .affix {
   top: 0;
   position: fixed;
@@ -24,6 +28,11 @@ body {
 
 .affix + .content {
   margin-top: $navbarHeight + 20px;
+}
+
+.signature {
+  font-family: cursive;
+  margin-left: 2%;
 }
 
 a, a:visited, a:hover {
