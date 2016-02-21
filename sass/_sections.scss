@@ -4,9 +4,7 @@ section {
   width: $mainContentSize;
   font-size: 1.3em;
   font-weight: 100;
-  background-color: $background2;
   color: white;
-  margin-bottom: 20px;
   li {
     margin-top: 7px;
   }
@@ -20,6 +18,14 @@ section {
     padding-left: 1%;
     padding-right: 1%;
   }
+}
+
+section:nth-of-type(2n) {
+  background-color: $background2;
+}
+
+section:nth-of-type(2n+1) {
+  background-color: $background0;
 }
 
 .sub-section {
