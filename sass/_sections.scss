@@ -41,6 +41,7 @@ section {
 }
 
 .links {
+  display: block;
   button {
     margin: 0;
     background-color: $backgroundGrey;;
@@ -60,8 +61,8 @@ section {
     color: $backgroundGrey;
     background-color: #C0133B;
   }
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 @media (max-width: 589px) {
