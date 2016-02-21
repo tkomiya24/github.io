@@ -148,13 +148,6 @@ nav {
   nav a {
     font-size: 1.23em; } }
 
-.resume-subsection {
-  padding: 5px; }
-  .resume-subsection div {
-    padding: 0 5px; }
-    .resume-subsection div p {
-      padding: 0 5px; }
-
 section {
   width: 100%;
   background-color: white;
