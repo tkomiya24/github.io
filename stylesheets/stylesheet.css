@@ -213,7 +213,8 @@ section {
   text-align: left; }
 
 html {
-  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; }
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 300; }
 
 body {
   background-color: #f5f8fa; }
