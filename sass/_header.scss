@@ -20,13 +20,6 @@
   color: rgb(230, 230, 230);
 }
 
-.header-right {
-  position: absolute;
-  h1 {
-    margin-bottom: 0;
-  }
-}
-
 .sun {
   background-color: $japaneseRed;
   border-radius: 50%;
@@ -62,10 +55,6 @@
     top: 200px;
     text-align: center;
     width: 100%;
-  }
-  .header-right {
-    right: 2px;
-    bottom: (920px - 250px - 200px);
   }
 }
 
