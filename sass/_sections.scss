@@ -52,10 +52,10 @@ section {
   display: block;
   button {
     margin: 0;
-    background-color: $backgroundGrey;;
+    background-color: $background4;
     padding: 0px;
-    border: 1px solid darken($backgroundGrey, 10%);
-    color: #C0133B;
+    border: 1px solid white;
+    color: white;
   }
   button:first-of-type {
     border-top-left-radius: 5px;
@@ -66,8 +66,7 @@ section {
     border-bottom-right-radius: 5px;
   }
   a:hover {
-    color: $backgroundGrey;
-    background-color: #C0133B;
+    background-color: $background3;
   }
   margin-top: 25px;
   margin-bottom: 25px;

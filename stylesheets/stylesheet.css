@@ -192,10 +192,10 @@ section {
   margin-bottom: 25px; }
   .links button {
     margin: 0;
-    background-color: #f5f8fa;
+    background-color: #a509b8;
     padding: 0px;
-    border: 1px solid #d3e0e9;
-    color: #C0133B; }
+    border: 1px solid white;
+    color: white; }
   .links button:first-of-type {
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px; }
@@ -203,8 +203,7 @@ section {
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px; }
   .links a:hover {
-    color: #f5f8fa;
-    background-color: #C0133B; }
+    background-color: #c20aba; }
 
 @media (max-width: 589px) {
   .sub-section {
