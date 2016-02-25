@@ -202,6 +202,41 @@ section:nth-of-type(2n+1) {
   vertical-align: text-top;
   text-align: left; }
 
+footer {
+  background-color: #a509b8;
+  color: white;
+  height: 60px;
+  padding-left: 5%;
+  padding-right: 5%;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 100%;
+  font-size: 1.2em;
+  line-height: 1.2em;
+  box-sizing: border-box; }
+  footer h1, footer h2, footer h3, footer h4, footer h5, footer h6 {
+    margin: 0;
+    padding: 0; }
+  footer a {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    text-decoration: underline; }
+  footer p {
+    margin: 0;
+    padding: 0; }
+  footer span {
+    vertical-align: middle;
+    line-height: inherit;
+    font-size: inherit; }
+
 html {
   font-family: Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: lighter; }
