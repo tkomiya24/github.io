@@ -23,25 +23,13 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 200;
 }
 
-@media (min-width: 683px) {
-  .affix {
-    top: 0;
-    position: fixed;
-  }
-
-  .affix + .content {
-    margin-top: $navbarHeight + 2px;
-  }
+nav {
+  position: fixed;
+  top: 0;
+  z-index: 1;
 }
-
-@media (max-width: 683px) {
-  nav {
-    position: fixed;
-    top: 0;
-  }
-  body {
-    padding-top: $navbarHeight;
-  }
+body {
+  padding-top: $navbarHeight;
 }
 
 .signature {
