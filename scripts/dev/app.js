@@ -14,7 +14,7 @@
         templateUrl: 'partials/skills.html'
       })
       .when('/home', {
-        templateUrl: 'partials/home.html'
+        templateUrl: 'partials/welcome.html'
       })
       .otherwise({
         redirectTo: '/home'
