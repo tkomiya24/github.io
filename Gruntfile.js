@@ -26,9 +26,21 @@ module.exports = function(grunt) {
         files: sassFiles,
         tasks: ['dist']
       }
+    },
+    connect: {
+      default: {
+        hostname: 'localhost',
+        keepalive: true
+      }
+    },
+    concurrent: {
+      default: {
+        target: ['connect', 'watch']
+      }
     }
   });
 
+  grunt.registerTask('default', ['concurrent']);
   grunt.registerTask('dist', ['sass', 'postcss']);
 
 };
