@@ -2,7 +2,7 @@ $innerPadding: 8%;
 
 section {
   width: $mainContentSize;
-  background-color: $background0;
+  background-color: $background1;
   font-size: 1.3em;
   font-weight: 100;
   color: white;
@@ -48,7 +48,7 @@ section {
   display: block;
   button {
     margin: 0;
-    background-color: $background4;
+    background-color: $background0;
     padding: 0px;
     border: 1px solid white;
     color: white;
@@ -62,7 +62,7 @@ section {
     border-bottom-right-radius: 5px;
   }
   a:hover {
-    background-color: $background3;
+    background-color: $background1;
   }
   margin-top: 25px;
   margin-bottom: 25px;
