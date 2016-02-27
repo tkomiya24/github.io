@@ -220,7 +220,9 @@ footer {
   width: 100%;
   font-size: 1.2em;
   line-height: 1.2em;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  position: relative;
+  margin-top: -60px; }
   footer h1, footer h2, footer h3, footer h4, footer h5, footer h6 {
     margin: 0;
     padding: 0; }
@@ -239,10 +241,19 @@ footer {
 
 html {
   font-family: Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: lighter; }
+  font-weight: lighter;
+  height: 100%; }
 
 body {
-  background-color: #f5f8fa; }
+  background-color: #f5f8fa;
+  height: 100%;
+  box-sizing: border-box; }
+
+main {
+  height: auto;
+  min-height: 100%;
+  padding-bottom: 60px;
+  box-sizing: border-box; }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 200; }
