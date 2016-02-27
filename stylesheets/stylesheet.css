@@ -77,7 +77,7 @@ nav {
   nav a {
     font-size: 1.23em; } }
 
-section {
+main {
   width: 100%;
   background-color: #262626;
   font-size: 1.3em;
@@ -86,11 +86,11 @@ section {
   border-top: 1px solid #e1e8ed;
   border-bottom: 1px solid #e1e8ed;
   border-radius: 5px; }
-  section li {
+  main li {
     margin-top: 7px; }
-  section li:first-child {
+  main li:first-child {
     margin-top: 0; }
-  section div {
+  main div {
     padding-left: 1%;
     padding-right: 1%; }
 
