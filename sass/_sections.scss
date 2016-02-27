@@ -1,6 +1,6 @@
 $innerPadding: 8%;
 
-section {
+main {
   width: $mainContentSize;
   background-color: $background1;
   font-size: 1.3em;
@@ -38,10 +38,6 @@ section {
 .section-header {
   padding-left: 20px;
   border-bottom: 1px solid $borderGrey;
-}
-
-.content {
-  padding: 0 $bodySidePadding;
 }
 
 .links {
