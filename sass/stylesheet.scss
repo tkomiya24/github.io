@@ -14,10 +14,20 @@
 html {
   font-family: Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: lighter;
+  height: 100%;
 }
 
 body {
   background-color: $backgroundGrey;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+main {
+  height: auto;
+  min-height: 100%;
+  padding-bottom: $footerHeight;
+  box-sizing: border-box;
 }
 
 h1, h2, h3, h4, h5, h6 {
