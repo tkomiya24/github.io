@@ -2,6 +2,7 @@ $innerPadding: 8%;
 
 section {
   width: $mainContentSize;
+  background-color: $background0;
   font-size: 1.3em;
   font-weight: 100;
   color: white;
@@ -18,14 +19,6 @@ section {
     padding-left: 1%;
     padding-right: 1%;
   }
-}
-
-section:nth-of-type(2n) {
-  background-color: $background0;
-}
-
-section:nth-of-type(2n+1) {
-  background-color: $background0;
 }
 
 .sub-section {
