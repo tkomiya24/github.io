@@ -149,10 +149,10 @@ section {
     padding-right: 1%; }
 
 section:nth-of-type(2n) {
-  background-color: #ab0022; }
+  background-color: black; }
 
 section:nth-of-type(2n+1) {
-  background-color: #b83209; }
+  background-color: black; }
 
 .sub-section {
   border-bottom: 1px solid #e1e8ed;
