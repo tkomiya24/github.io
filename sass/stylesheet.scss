@@ -1,6 +1,8 @@
 //variables
 @import "colours";
 @import "sizes";
+//mixins
+@import "mixins/mixins";
 //partials
 @import "welcome";
 @import "navbar";
@@ -17,7 +19,6 @@ html {
 }
 
 body {
-  background-color: $backgroundGrey;
   height: 100%;
   box-sizing: border-box;
 }
