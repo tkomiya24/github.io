@@ -1,4 +1,23 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,100,900,700,500,300);
+.sideways-list {
+  padding: 0;
+  width: 100%; }
+
+@media (min-width: 745px) {
+  .sideways-list li {
+    display: inline-block;
+    width: 24%;
+    margin: 0;
+    padding: 1%;
+    box-sizing: border-box; } }
+
+@media (max-width: 744px) {
+  .sideways-list li {
+    display: block;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto; } }
+
 .welcome {
   background: linear-gradient(to bottom, #c80025 0%, #c4717f 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
@@ -13,6 +32,11 @@
   border-radius: 7px;
   margin-top: 20px;
   margin-bottom: 20px; }
+
+.list-container {
+  margin-bottom: 3em;
+  margin-top: 2em;
+  font-size: 1.2em; }
 
 nav {
   display: -webkit-flex;
