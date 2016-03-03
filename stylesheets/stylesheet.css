@@ -64,16 +64,26 @@ nav {
     font-size: 1.1em; } }
 
 @media (min-width: 601px) {
-  nav h1 {
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
+  nav .navbar-header {
+    vertical-align: middle;
     -webkit-align-items: center;
         -ms-flex-align: center;
             align-items: center;
+    -webkit-align-content: center;
+        -ms-flex-line-pack: center;
+            align-content: center;
     padding: 0 20px;
-    margin: 0;
-    margin-right: 70px; }
+    margin-right: 70px;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%; }
+    nav .navbar-header h1 {
+      height: 100%;
+      margin: 0;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex; }
   nav a {
     font-size: 1.23em; } }
 
