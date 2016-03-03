@@ -32,7 +32,7 @@ nav {
 
 @media (max-width: 600px) {
   nav {
-    h1 {
+    .navbar-header {
       display: none;
     }
     a {

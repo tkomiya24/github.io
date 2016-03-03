@@ -58,7 +58,7 @@ nav {
     background-color: #262626; }
 
 @media (max-width: 600px) {
-  nav h1 {
+  nav .navbar-header {
     display: none; }
   nav a {
     font-size: 1.1em; } }
