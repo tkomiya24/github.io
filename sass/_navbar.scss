@@ -32,7 +32,7 @@ nav {
 
 @media (max-width: 600px) {
   nav {
-    h1 {
+    .navbar-header {
       display: none;
     }
     a {
@@ -43,12 +43,19 @@ nav {
 
 @media (min-width: 601px) {
   nav {
-    h1 {
-      display: flex;
+    .navbar-header {
+      vertical-align: middle;
       align-items: center;
+      align-content: center;
       padding: 0 20px;
-      margin: 0;
       margin-right: 70px;
+      display: flex;
+      height: 100%;
+      h1 {
+        height: 100%;
+        margin: 0;
+        display: flex;
+      }
     }
     a {
       font-size: 1.23em;
