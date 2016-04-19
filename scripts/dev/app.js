@@ -16,6 +16,9 @@
       .when('/home', {
         templateUrl: 'partials/welcome.html'
       })
+      .when('/contact', {
+        templateUrl: 'partials/contact.html'
+      })
       .otherwise({
         redirectTo: '/home'
       });
