@@ -3,10 +3,20 @@ html {
   font-size: 1.5em;
 }
 
-body, html, section, navbar, header h1 {
+body, html, section, navbar {
   margin: 0;
   padding: 0;
   display: block;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  padding: 0;
+  margin: 0;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
 }
 
 navbar {
@@ -37,7 +47,6 @@ navbar .links {
 }
 
 navbar .links ul {
-  list-style: none;
   display: inline;
   margin: 0;
   padding: 0;
@@ -126,14 +135,12 @@ footer .title h1 {
   padding: 0;
   margin: 30px;
   font-size: 1.5em;
-  font-weight: normal;
 }
 
 footer ul.social-media {
   padding: 0;
   margin: 0;
-  list-style: none;
-  display:inline-block;
+  display: inline-block;
 }
 
 footer .social-media a {
@@ -148,4 +155,67 @@ footer .social-media a {
 footer .social-media li {
   font-size: 0.8em;
   display: inline-block;
+}
+
+section.projects {
+  color: #616161;
+}
+
+section.projects .header {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+section.projects .project {
+  width: 500px;
+  box-sizing: border-box;
+  font-size: 0.8em;
+}
+
+section.projects .project .image {
+  width: 100%;
+  height: 500px;
+  background-size: 450px;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+section.projects .project .image:hover {
+  opacity: 0.7;
+}
+
+
+section.projects .project .image a {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+}
+
+section.projects .project .details {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  background-color: black;
+  color: white;
+  opacity: 0;
+  transition: opacity 0.25s;
+  border-radius: 8px;
+  padding: 32px;
+  box-sizing: border-box;
+  font-family: PT Serif Caption, serif;
+}
+
+section.projects .project .details:hover {
+  opacity: 0.85;
+}
+
+section.projects .project .summary {
+  padding: 0 30px;
+}
+
+#pokemon-site {
+  background-image: url("../images/eevee.png");
+  background-color: orange;
 }
