@@ -220,3 +220,45 @@ section.projects .project .summary {
   background-image: url("../images/eevee.png");
   background-color: orange;
 }
+
+section.skills {
+  background-color: #FFFAF0;
+  color: #616161;
+}
+
+.skills .header, .skills .rating {
+  color: orange;
+}
+
+.skills .rating {
+  content: "\2605";
+}
+
+.skills .skills-list-container {
+  width: 70%;
+  padding: 0 25%;
+}
+
+.skills .skills-list {
+  width: 37%;
+  padding-right: 8%;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.skills .skills-list.column {
+  float: left;
+}
+
+.skills .skills-list ul {
+  padding: 0;
+  width: 100%;
+}
+
+.skills .skills-list li {
+  margin: 13px 0;
+}
+
+.skills .skills-list .rating {
+  float: right;
+}
