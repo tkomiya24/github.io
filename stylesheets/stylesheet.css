@@ -222,21 +222,25 @@ section.projects .project .summary {
 
 section.skills {
   background-color: #FFFAF0;
+  color: #616161;
 }
 
 .skills .header, .skills .rating {
   color: orange;
 }
 
+.skills .rating {
+  content: "\2605";
+}
+
 .skills .skills-list-container {
-  width: 50%;
+  width: 70%;
   padding: 0 25%;
 }
 
 .skills .skills-list {
-  width: 45%;
-  padding-right: 30px;
-  box-sizing: border-box;
+  width: 37%;
+  padding-right: 8%;
   margin: 0 auto;
   display: inline-block;
 }
@@ -251,8 +255,7 @@ section.skills {
 }
 
 .skills .skills-list li {
-  margin: auto;
-  box-sizing: border-box;
+  margin: 13px 0;
 }
 
 .skills .skills-list .rating {
