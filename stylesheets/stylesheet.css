@@ -155,17 +155,16 @@ footer .social-media li {
   display: inline-block;
 }
 
+section .header {
+  margin-bottom: 100px;
+}
+
 section.projects {
   color: #616161;
 }
 
 section.projects .projects-container {
   text-align: center;
-}
-
-section.projects .header {
-  text-align: center;
-  margin-bottom: 100px;
 }
 
 section.projects .project {
@@ -240,19 +239,23 @@ section.skills {
 }
 
 .skills .skills-list-container {
-  width: 70%;
-  padding: 0 25%;
+  width: 75%;
+  padding-right: 12.5%;
+  padding-left: 12.5%;
 }
 
 .skills .skills-list {
   width: 37%;
-  padding-right: 8%;
   margin: 0 auto;
   display: inline-block;
 }
 
 .skills .skills-list.column {
   float: left;
+}
+
+.skills .skills-list.column2 {
+  margin-left: 26%;
 }
 
 .skills .skills-list ul {
