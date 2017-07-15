@@ -19,6 +19,11 @@ ul {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 navbar {
   height: 80px;
   width: 100%;
@@ -58,6 +63,14 @@ navbar .links li {
   padding: 0;
   display: inline-block;
   text-transform: uppercase;
+}
+
+navbar a {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
 }
 
 header {
