@@ -3,7 +3,12 @@ html {
   font-size: 1.5em;
 }
 
-body, html, section, navbar {
+body {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+html, section, navbar {
   margin: 0;
   padding: 0;
   display: block;
