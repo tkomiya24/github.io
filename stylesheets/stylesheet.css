@@ -78,10 +78,9 @@ header {
   margin: 0;
   height: 500px;
   /* background image stuff */
-  background-image: url("../images/DSCF1754.JPG");
-  background-size: 2448px 1632px;
+  background-image: url("../images/background.jpg");
   background-repeat: no-repeat;
-  background-position: 50% 50%;
+  background-position: center;
   opacity: 0.8;
 }
 
