@@ -128,6 +128,44 @@ section.philosophy .about {
   font-style: italic;
 }
 
+section.experience {
+  font-family: Zilla Slab, serif;
+  padding: 128px 180px;
+  background-color: #405559;
+  color: #FFFAF0;
+}
+
+.experience .header {
+  text-align: center;
+  font-size: 1.25em;
+  margin-bottom: 100px;
+}
+
+.experience .header h1 {
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.experience-container {
+  padding: 32px 112px;
+  letter-spacing: 1.25px;
+}
+
+.experience-container .title .company {
+  float: left;
+  font-size: 1.4em
+}
+
+.experience-container .title .time {
+  float: right;
+  font-size: 1.1em;
+}
+
+.experience-container .details {
+  padding: 32px 64px;
+  clear: both;
+}
+
 footer {
   width: 100%;
   height: 300px;

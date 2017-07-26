@@ -7,7 +7,7 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="print">
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300|Zilla+Slab|PT+Serif+Caption" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300|Zilla+Slab:400,500|PT+Serif+Caption" rel="stylesheet">
 
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -26,6 +26,11 @@
           <li>
             <a href="#about">
               About
+            </a>
+          </li>
+          <li>
+            <a href="#experience">
+              Experience
             </a>
           </li>
           <li>
@@ -71,16 +76,17 @@
         </p>
       </div>
     </section>
-    <section id="experience">
+    <section id="experience" class="experience">
       <div class="header">
         <h1>Experience</h1>
-      <div>
+        <hr />
+      </div>
       <div class="experience-container">
-        <div>
-          <h2>Global Relay</h2>
-          <h3>June 2016 - Present</h3>
+        <div class="title">
+          <span class="company">Global Relay</span>
+          <span class="time">June 2016 - Present</span>
         </div>
-        <div>
+        <div class="details">
           <p>
             Developer for a hosted SaaS Java application that converts messages of various formats
             into emails to be archived for compliance purposes
@@ -88,11 +94,11 @@
         </div>
       </div>
       <div class="experience-container">
-        <div>
-          <h2>SAP Labs Canada</h2>
-          <h3>January - December 2015</h3>
+        <div class="title">
+          <span class="company">SAP Labs Canada</span>
+          <span class="time">January - December 2015</span>
         </div>
-        <div>
+        <div class="details">
           <p>
             Developed and tested Android apps with Java and cross-platform mobile apps with Cordova and JavaScript
           </p>
