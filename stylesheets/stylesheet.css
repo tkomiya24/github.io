@@ -123,6 +123,14 @@ navbar .controls button {
     color: #505077;
     padding: 10px;
   }
+
+  section {
+    padding: 7.5%;
+  }
+
+  section.philosophy .about {
+    padding: 3% 5%;
+  }
 }
 
 @media only screen and (min-width: 601px) {
@@ -188,6 +196,22 @@ navbar .controls button {
     position: relative;
     padding: 32px 48px;
   }
+
+  section {
+    padding: 128px;
+  }
+
+  section.philosophy {
+    height: 250px;
+    padding: 80px 112px;
+  }
+
+  section.philosophy .about {
+    margin: auto;
+    padding: 24px 64px;
+    font-size: 0.875em;
+    font-style: italic;
+  }
 }
 
 header {
@@ -195,22 +219,13 @@ header {
   margin: 0;
 }
 
-section {
-  padding: 128px;
-}
-
 section.philosophy {
   background-color: #455A64;
   color: white;
-  height: 250px;
-  position: relative;
-  padding: 80px 112px;
 }
 
 section.philosophy .about {
   margin: auto;
-  padding: 24px 64px;
-  font-size: 0.875em;
   font-style: italic;
 }
 
