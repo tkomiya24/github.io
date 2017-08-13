@@ -131,6 +131,18 @@ navbar .controls button {
   section.philosophy .about {
     padding: 3% 5%;
   }
+
+  section .header {
+    margin-bottom: 30px;
+  }
+
+  .experience-container .title .time {
+    display: block;
+  }
+
+  .experience-container .details {
+    padding: 2.5% 7.5%;
+  }
 }
 
 @media only screen and (min-width: 601px) {
@@ -201,6 +213,10 @@ navbar .controls button {
     padding: 128px;
   }
 
+  section .header {
+    margin-bottom: 100px;
+  }
+
   section.philosophy {
     height: 250px;
     padding: 80px 112px;
@@ -211,6 +227,27 @@ navbar .controls button {
     padding: 24px 64px;
     font-size: 0.875em;
     font-style: italic;
+  }
+
+  section.experience {
+    padding: 128px 180px;
+  }
+
+  .experience-container {
+    padding: 32px 112px;
+  }
+
+  .experience-container .title .company {
+    float: left;
+  }
+
+  .experience-container .title .time {
+    float: right;
+  }
+
+  .experience-container .details {
+    padding: 32px 64px;
+    clear: both;
   }
 }
 
@@ -231,7 +268,6 @@ section.philosophy .about {
 
 section.experience {
   font-family: Zilla Slab, serif;
-  padding: 128px 180px;
   background-color: #405559;
   color: #FFFAF0;
 }
@@ -239,7 +275,6 @@ section.experience {
 .experience .header {
   text-align: center;
   font-size: 1.25em;
-  margin-bottom: 100px;
 }
 
 .experience .header h1 {
@@ -248,23 +283,15 @@ section.experience {
 }
 
 .experience-container {
-  padding: 32px 112px;
   letter-spacing: 1.25px;
 }
 
 .experience-container .title .company {
-  float: left;
   font-size: 1.4em
 }
 
 .experience-container .title .time {
-  float: right;
   font-size: 1.1em;
-}
-
-.experience-container .details {
-  padding: 32px 64px;
-  clear: both;
 }
 
 footer {
@@ -305,10 +332,6 @@ footer .social-media a {
 footer .social-media li {
   font-size: 0.8em;
   display: inline-block;
-}
-
-section .header {
-  margin-bottom: 100px;
 }
 
 section.skills {
